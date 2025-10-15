@@ -22,7 +22,7 @@ uploaded_file = st.file_uploader("Choose an image...", type=["jpg",
 if uploaded_file is not None:
 image = Image.open(uploaded_file)
 img_array = np.array(image)
-st.image(image, caption='Uploaded Image',
+st.image(image, caption='https://sl.bing.net/eHC5txea0Fo',
 use_column_width=True)
 st.write("Click on the image to detect the color.")
 coords = st.experimental_data_editor({"x": [], "y": []}, num_rows=1)
