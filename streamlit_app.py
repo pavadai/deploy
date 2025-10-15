@@ -25,7 +25,7 @@ def get_color_name(R, G, B):
 st.title("🎨 Color Detection from Image")
 
 # ---- Upload image ----
-uploaded_file = st.file_uploader("📤 Upload an image...", type=["jpg", "jpeg", "png"])
+uploaded_file = st.file_uploader("https://sl.bing.net/cA4aTRRlaCa", type=["jpg", "jpeg", "png"])
 
 if uploaded_file is not None:
     # Read and display image
